@@ -1,0 +1,37 @@
+{
+  "name": "vue-beercss-navigation",
+  "version": "1.0.2",
+  "description": "A Vue.js component that provides a customizable navigation rail or drawer, with support to configure entries with icons and labels, with a focus on responsiveness and following Material Design 3 guidelines, implemented with BeerCSS.",
+  "main": "dist/vue-beercss-navigation.umd.js",
+  "module": "dist/vue-beercss-navigation.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "vue",
+    "beercss",
+    "drawer",
+    "rail",
+    "component",
+    "vue3",
+    "material"
+  ],
+  "author": "igorf3rn4nd0",
+  "license": "MIT",
+  "dependencies": {
+    "beercss": "^3.6.8",
+    "material-dynamic-colors": "^1.1.2",
+    "vue": "^3.4.31",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vite": "^5.3.4"
+  }
+}
